@@ -1,5 +1,5 @@
 Body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /**** use this area to style the banner of the app ****/
@@ -11,14 +11,15 @@ div.banner {
   align-items: center;
   align-content: center;
   color: grey;
-  height: 30vh;
+  height: 220px;
   padding-bottom: 0px;
 }
 
 img.banner {
   border: 1px solid #fff;
   border-radius: 50%;
-  margin: 10px;
+  margin: 0px;
+  padding: 0px;
   height: 200px;
   width: 200px;
   background-color: grey;
@@ -30,6 +31,13 @@ img.banner {
   text-align: center;
   color: white;
   background-color: rgb(71, 177, 209);
+}
+
+/* here we will style our table */
+.table-responsive-xl {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 10px 10px;
 }
 
 /**** begin styling the contact form below ****/
@@ -74,12 +82,12 @@ div.each-slide {
 }
 /* we will style our blogs here */
 .blog {
-  margin:10px auto;
+  margin: 10px auto;
   width: 75vw;
 }
 
 h2.blog {
-  text-align:  center;
+  text-align: center;
 }
 
 /**** the services grid layout ****/
@@ -99,8 +107,8 @@ div.fifty {
 
 /* here we will descibe our service cards */
 .service-card {
-width: 75vw;
-margin: 10px auto;
+  width: 75vw;
+  margin: 10px auto;
 }
 
 /**** here we will style our service link and contact button  ****/
@@ -142,14 +150,13 @@ svg.svg-inline--fa.fa-facebook-messenger {
 div.footer {
   display: grid;
   grid-template-columns: 100%;
-  height: 10vh;
+  height: 100%;
   width: 100%;
   color: grey;
   background-color: #000;
   margin-top: 10px;
   text-align: center;
 }
-
 
 /**** style the font-awesome social media icons here ****/
 div.social {
@@ -160,4 +167,9 @@ div.social {
   align-items: center;
   width: 100vw;
   margin-left: 15px;
+}
+
+a.social-icon {
+  margin: 10px;
+  padding: 10px;
 }

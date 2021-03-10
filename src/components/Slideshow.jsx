@@ -6,13 +6,6 @@ import database_button from "../images/database_button.jpg";
 import projectplus from "../images/projectplus.png";
 import projectcapm from "../images/projectcapm.png";
 
-const slideImages = [
-  { e_commerce_button },
-  { database_button },
-  { projectcapm },
-  { projectplus }
-];
-
 const Slideshow = () => {
   return (
     <div className="badges">
@@ -25,8 +18,8 @@ const Slideshow = () => {
             <img
               src={e_commerce_button}
               alt="Certified Internet Webmaster: E-Commerce Design Specialist"
-              height="100vh"
-              width="100vw"
+              height="50vh"
+              width="50vw"
             />
             <span style={{textAlign: "center"}}>Certfied Internet Webmaster</span>
             <h4 style={{textAlign: "center"}}>E-Commerce Design Specialist</h4>
@@ -36,7 +29,7 @@ const Slideshow = () => {
               src={database_button}
               alt="Certified Internet Webmaster: Database Design Specialist"
               height="100vh"
-              width="100vw"
+              width="100vh"
             />
             <span style={{textAlign: "center"}}>Certfied Internet Webmaster</span>
             <h4 style={{textAlign: "center"}}>Database Design Specialist</h4>
