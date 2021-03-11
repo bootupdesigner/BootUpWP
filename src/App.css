@@ -35,9 +35,9 @@ img.banner {
 
 /* here we will style our table */
 .table-responsive-xl {
-  width: 75vw;
-  margin: 0 auto;
-  padding: 10px 10px;
+  width: 100%;
+  margin: 0 10px;
+  padding: 0px 10px;
 }
 
 /**** begin styling the contact form below ****/
@@ -126,7 +126,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 30px;
+  margin: 20px;
 }
 
 /**** here we will add some styling to out messenger, floating button  ****/
@@ -172,4 +172,18 @@ div.social {
 a.social-icon {
   margin: 10px;
   padding: 10px;
+}
+/* here we will style out add to cart options */
+.add-to-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid grey;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10;
+  text-align: center;
+  border-radius: 2%;
 }

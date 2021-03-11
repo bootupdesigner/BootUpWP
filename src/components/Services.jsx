@@ -3,7 +3,6 @@ import WebServices from "./WebServices";
 import ContactButton from "./ContactButton";
 
 import { Link } from "react-router-dom";
-
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
@@ -13,6 +12,10 @@ const Services = () => {
       <div className="page-description">
         <h1>Web Services</h1>
         <p>Web Services Make Your Business Easier</p>
+      </div>
+      <div className="startups" style={{textAlign: "center", display: "block", width: "100%"}}>
+        <h3>Business Startups</h3>
+        <p style={{padding: "0px 10vw 0px 10vw"}}>Boot Up Web Professionaionals offers a number of services to help jump start you business or creative idea. We'll provide you with Limitied Liability Company filings (LLC), Employer ID Number(EIN), Vendors Tax ID, Vendors List, Logos, and a <i>WEBSITE!</i></p>
       </div>
       {/* card number one */}
       <Card className="service-card">
@@ -40,10 +43,19 @@ const Services = () => {
         </Button>
   </Card.Body>
 </Card>
-      <div className="startups" style={{textAlign: "center", display: "block", width: "100%"}}>
-        <h3>Business Startups</h3>
-        <p style={{padding: "0px 10vw 0px 10vw"}}>Boot Up Web Professionaionals offers a number of services to help jump start you business or creative idea. We'll provide you with Limitied Liability Company filings (LLC), Employer ID Number(EIN), Vendors Tax ID, Vendors List, Logos, and a <i>WEBSITE!</i></p>
-      </div>
+{/* card three starts here */}
+<Card className="service-card">
+  <Card.Header as="h5">Services</Card.Header>
+  <Card.Body>
+    <Card.Title>Hosting and Maintenance</Card.Title>
+    <Card.Text>
+    Publishing your website to the internet requires a hosting service. Great news our premium hosting service also comes with a free SSL Certificate that keeps your users information safe. 
+    </Card.Text>
+    <Button variant="outline-dark">
+       <Link to="/Hosting">Learn More</Link>
+        </Button>
+  </Card.Body>
+</Card>
       <WebServices />
     < ContactButton/>
     </div>

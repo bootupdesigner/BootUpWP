@@ -17,6 +17,7 @@ import Services from './components/Services';
 import Banner from './components/Banner';
 import WebsiteDesigns from './components/WebsiteDesigns';
 import SeoImprovements from './components/SeoImprovements';
+import Hosting from './components/Hosting';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -43,6 +44,7 @@ function App() {
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/seoimprovements" component={SeoImprovements} />
       <Route exact path="/websitedesigns" component={WebsiteDesigns} />
+      <Route exact path="/hosting" component={Hosting} />
     </Switch>
     <Messenger />
     <Footer />
