@@ -5,7 +5,7 @@ const DesignChart = () => {
   return (
     <div style={{ marginTop: "10px" }}>
       <h2 className="text-center">Compare Our Website Design Services</h2>
-      <Table striped bordered hover variant="light" className="chart" responsive size="sm">
+      <Table striped bordered hover variant="light" className="chart" size="sm">
         <thead>
           <tr>
             <th>What's Included</th>

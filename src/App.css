@@ -34,10 +34,9 @@ img.banner {
 }
 
 /* here we will style our table */
-.table-responsive {
-  width: 75%;
-  margin: 0px auto;
-  padding: 5px;
+.table {
+  width: 100%;
+  margin: 0px;
 }
 
 /**** begin styling the contact form below ****/
