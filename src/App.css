@@ -34,10 +34,10 @@ img.banner {
 }
 
 /* here we will style our table */
-.table-responsive-xl {
-  width: 100%;
-  margin: 0 10px;
-  padding: 0px 10px;
+.table-responsive {
+  width: 75%;
+  margin: 0px auto;
+  padding: 5px;
 }
 
 /**** begin styling the contact form below ****/
@@ -126,7 +126,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 20px;
+  margin: 20px auto;
+  width: 75vw;
 }
 
 /**** here we will add some styling to out messenger, floating button  ****/
@@ -182,8 +183,13 @@ a.social-icon {
   align-content: center;
   border: 1px solid grey;
   width: 100%;
-  margin: 10px auto;
-  padding: 10;
+  margin: 5px auto;
+  padding: 20px;
   text-align: center;
-  border-radius: 2%;
+  border-radius: 1%;
+}
+/* here we will style our Columns and rows that make our shop */
+
+.col {
+  width: 100%;
 }

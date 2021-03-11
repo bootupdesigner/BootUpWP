@@ -18,6 +18,7 @@ const BootUp = () => {
         <p>Jump Start Your Website</p>
       </div>
       {/* the web design service blog begins here */}
+      
       <Card className="service-card">
   <Card.Header as="h5">Services</Card.Header>
   <Card.Body>
@@ -51,4 +52,3 @@ const BootUp = () => {
   );
 };
 export default BootUp;
-

@@ -1,10 +1,11 @@
 import React from "react";
-import WebServices from "./WebServices";
 import ContactButton from "./ContactButton";
-
+import EmailDesign from "./LogoDesign";
+import LogoDesign from "./EmailDesign";
+import SeoDesign from "./SeoDesign";
 import { Link } from "react-router-dom";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Button, Card, Container, Row, Col} from "react-bootstrap";
+
 
 const Services = () => {
   return (
@@ -56,7 +57,19 @@ const Services = () => {
         </Button>
   </Card.Body>
 </Card>
-      <WebServices />
+<Container>
+  <Row>
+    <Col>
+    <LogoDesign />
+    </Col>
+    <Col>
+    <EmailDesign />
+    </Col>
+    <Col>
+    <SeoDesign />
+    </Col>
+    </Row>
+  </Container>
     < ContactButton/>
     </div>
   );

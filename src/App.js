@@ -18,6 +18,8 @@ import Banner from './components/Banner';
 import WebsiteDesigns from './components/WebsiteDesigns';
 import SeoImprovements from './components/SeoImprovements';
 import Hosting from './components/Hosting';
+import Faqs from './components/Faqs';
+import Shop from './components/Shop';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -37,10 +39,12 @@ function App() {
     <Banner />
     <Switch>
       <Route exact path="/" component={BootUp} />
+      <Route exact path="/shop" component={Shop} />
       <Route exact path="/bootup" component={BootUp} />
       <Route exact path="/schedule" component={Schedule} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/services" component={Services} />
+      <Route exact path="/faqs" component={Faqs} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/seoimprovements" component={SeoImprovements} />
       <Route exact path="/websitedesigns" component={WebsiteDesigns} />
