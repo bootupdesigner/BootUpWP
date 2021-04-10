@@ -17,8 +17,8 @@ div.banner {
 img.banner-logo {
   margin: 0px;
   padding: 0px;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   margin-bottom: 0px;
 }
 img.banner {
@@ -26,8 +26,8 @@ img.banner {
   border-radius: 50%;
   margin: 0px;
   padding: 0px;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   background-color: grey;
   margin-bottom: 0px;
 }
