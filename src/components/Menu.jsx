@@ -1,20 +1,11 @@
 import React from "react";
 import NavBar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../images/logo-120.png";
 
 const Menu = () => {
   return (
     <NavBar expand="lg" bg="dark" variant="dark">
       <NavBar.Brand href="/">
-        <img
-          src={logo}
-          alt="Boot Up Web Professionals logo"
-          height="30"
-          width="30"
-          className="d-inline-block align-top"
-        />
-        {""}
         Boot Up Web Professionals
       </NavBar.Brand>
       <NavBar.Toggle aria-controls="basic-navbar-nav" />
