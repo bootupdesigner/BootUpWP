@@ -44,7 +44,7 @@ const Services = () => {
     {service.description} 
     </Card.Text>
     <Button variant="outline-dark">
-       <Link to={service.link}>Learn More</Link>
+       <Link to={service.link}>Learn more about this service</Link>
         </Button>
   </Card.Body>
 </Card>

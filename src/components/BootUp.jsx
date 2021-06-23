@@ -27,7 +27,7 @@ const BootUp = () => {
     Boot Up Web Professionals design WordPress websites that are 100% responsive for Desktop, Laptop, Tablet, and Mobile. Your website comes with a full e-commerce integration including:
     </Card.Text>
     <Button variant="outline-dark">
-       <Link to="/WebsiteDesigns">Learn More</Link>
+       <Link to="/WebsiteDesigns">Learn more about this service</Link>
         </Button>
   </Card.Body>
 </Card>
