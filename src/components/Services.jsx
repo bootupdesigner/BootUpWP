@@ -11,13 +11,16 @@ const Services = () => {
   const offer = [
     {
       blog: "Website Designs",
-      description: "Boot Up Web Professionals design WordPress websites that are 100% responsive for Desktop, Laptop, Tablet, and Mobile. Your website comes with a full e-commerce integration including:" 
+      description: "Boot Up Web Professionals design WordPress websites that are 100% responsive for Desktop, Laptop, Tablet, and Mobile. Your website comes with a full e-commerce integration including:",
+      link: "/WebsiteDesigns"
     },{
       blog: "SEO Improvements",
-      description: "Your SEO results are populated by more than your website alone, developing your presence on the internet improves your SEO. Our E-Commerce Design Specialist..." 
+      description: "Your SEO results are populated by more than your website alone, developing your presence on the internet improves your SEO. Our E-Commerce Design Specialist...",
+      link: "/SeoImprovements" 
     },{
       blog: "Hosting and Maintenance",
-      description: "Publishing your website to the internet requires a hosting service. Great news our premium hosting service also comes with a free SSL Certificate that keeps your users information safe..." 
+      description: "Publishing your website to the internet requires a hosting service. Great news our premium hosting service also comes with a free SSL Certificate that keeps your users information safe...",
+      link: "/Hosting"
     }
   ];
   return (
@@ -41,24 +44,12 @@ const Services = () => {
     {service.description} 
     </Card.Text>
     <Button variant="outline-dark">
-       <Link to="/Hosting">Learn More</Link>
+       <Link to={service.link}>Learn More</Link>
         </Button>
   </Card.Body>
 </Card>
       )
     })}
-<Card className="service-card">
-  <Card.Header as="h5">Services</Card.Header>
-  <Card.Body>
-    <Card.Title>Hosting and Maintenance</Card.Title>
-    <Card.Text>
-    Publishing your website to the internet requires a hosting service. Great news our premium hosting service also comes with a free SSL Certificate that keeps your users information safe. 
-    </Card.Text>
-    <Button variant="outline-dark">
-       <Link to="/Hosting">Learn More</Link>
-        </Button>
-  </Card.Body>
-</Card>
 <Container>
   <Row>
     <Col>
