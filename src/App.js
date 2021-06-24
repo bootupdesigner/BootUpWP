@@ -20,6 +20,7 @@ import SeoImprovements from './components/SeoImprovements';
 import Hosting from './components/Hosting';
 import Faqs from './components/Faqs';
 import Shop from './components/Shop';
+import Header from './components/Header';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -35,8 +36,7 @@ library.add(fab, faFacebookMessenger, faFacebookF, faTwitter, faLinkedinIn);
 function App() {
   return (
     <Router>
-    <Menu sticky="top" />
-    <Banner />
+    <Header />
     <Switch>
       <Route exact path="/" component={BootUp} />
       <Route exact path="/shop" component={Shop} />

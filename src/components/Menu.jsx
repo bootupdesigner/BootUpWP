@@ -5,9 +5,6 @@ import Nav from "react-bootstrap/Nav";
 const Menu = () => {
   return (
     <NavBar expand="lg" bg="dark" variant="dark">
-      <NavBar.Brand href="/">
-        Boot Up Web Professionals
-      </NavBar.Brand>
       <NavBar.Toggle aria-controls="basic-navbar-nav" />
       <NavBar.Collapse id="basic-navbar-nav">
         <Nav>
