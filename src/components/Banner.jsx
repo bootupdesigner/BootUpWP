@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import curtis from '../images/curtis.png';
 import bootupbanner from '../images/bootupbanner.png';
 
 const Banner = () => {

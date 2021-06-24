@@ -7,14 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-slideshow-image/dist/styles.css';
 
 import Schedule from './components/Schedule';
-import Menu from './components/Menu';
 import BootUp from './components/BootUp';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Messenger from './components/Messenger';
 import Contact from './components/Contact';
 import Services from './components/Services';
-import Banner from './components/Banner';
 import WebsiteDesigns from './components/WebsiteDesigns';
 import SeoImprovements from './components/SeoImprovements';
 import Hosting from './components/Hosting';
